@@ -12,8 +12,9 @@ output = some_function(5, 6, 7)
 # print(output)
 
 
-def greet_friend(greeting, name):
-    print(greeting, name + "!")
+def greet_friend(name, greeting, sentence):
+    output = "{2}, {0}!, {1}".format(name, greeting, sentence)
+    print(output)
 
 
-greet_friend("Hello", "John")
+greet_friend("John", "Hey", "How are you doing today?")
