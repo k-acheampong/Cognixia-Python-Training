@@ -1,5 +1,5 @@
 {
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
