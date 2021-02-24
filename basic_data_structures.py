@@ -10,3 +10,9 @@ listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 listOfNumbers.append(10)
 print(listOfNumbers)
+
+listOfNumbers.pop(4)
+print(listOfNumbers)
+
+listOfNumbers.reverse()
+print(listOfNumbers)
