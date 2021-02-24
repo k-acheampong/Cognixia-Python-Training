@@ -18,3 +18,13 @@ def greet_friend(name, greeting, sentence):
 
 
 greet_friend("John", "Hey", "How are you doing today?")
+
+
+def greet_user(greeting):
+    user = input("Please enter your name: ")
+    print(type(user))
+    print("{}, {}!".format(greeting, user))
+    print(5 + int(input("Please enter an integer: ")))
+
+
+greet_user("Hello")
