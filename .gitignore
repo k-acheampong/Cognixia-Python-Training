@@ -1,0 +1,3 @@
+.pytest_cache
+.vscode
+virtual_environment
